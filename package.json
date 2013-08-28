@@ -1,0 +1,34 @@
+{
+  "name": "timeless",
+  "version": "0.0.1",
+  "description": "Node and browser library that helps to deal with time in timezone- and/or date- agnostic way",
+  "main": "timeless.js",
+  "scripts": {
+    "test": "tap ./test"
+  },
+  "ender": "./ender.js",
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexindigo/timeless.git"
+  },
+  "keywords": [
+    "time",
+    "parse",
+    "util",
+    "browser",
+    "client",
+    "server",
+    "ender"
+  ],
+  "author": "Alex Indigo <iam@alexindigo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexindigo/timeless/issues"
+  },
+  "devDependencies": {
+    "tap": "~0.4.4"
+  }
+}
