@@ -1,5 +1,5 @@
-var test     = require('tap').test
-  , timeless = require('../timeless.js')
+var test     = require('tape').test
+  , timeless = require('../')
 
   , toMilliseconds =
     { '3:08' : 11280000

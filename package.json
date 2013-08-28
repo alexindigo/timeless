@@ -1,10 +1,10 @@
 {
   "name": "timeless",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node and browser library that helps to deal with time in timezone- and/or date- agnostic way",
   "main": "timeless.js",
   "scripts": {
-    "test": "tap ./test"
+    "test": "node ./test"
   },
   "ender": "./ender.js",
   "engines": {
@@ -28,7 +28,18 @@
   "bugs": {
     "url": "https://github.com/alexindigo/timeless/issues"
   },
+  "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [
+            "ie/8..latest",
+            "chrome/20..latest",
+            "firefox/10..latest",
+            "safari/latest",
+            "iphone/6..latest",
+            "ipad/6..latest"
+        ]
+    },
   "devDependencies": {
-    "tap": "~0.4.4"
+    "tape": "~1.0.4"
   }
 }

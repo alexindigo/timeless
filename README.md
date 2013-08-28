@@ -6,12 +6,12 @@ Javascript (Node + Browser) library that helps to deal with time in timezone- an
 
 ### Node
 ```
-npm install timeless
+$ npm install timeless
 ```
 
 ### Ender
 ```
-ender add timeless
+$ ender add timeless --use=your_ender_file
 ```
 
 ## Usage
