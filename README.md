@@ -1,4 +1,4 @@
-# timeless [![Build Status](https://travis-ci.org/alexindigo/timeless.png?branch=master)](https://travis-ci.org/alexindigo/timeless) [![Dependency Status](https://gemnasium.com/alexindigo/timeless.png)](https://gemnasium.com/alexindigo/timeless)
+# Timeless [![Build Status](https://travis-ci.org/alexindigo/timeless.png?branch=master)](https://travis-ci.org/alexindigo/timeless) [![Dependency Status](https://gemnasium.com/alexindigo/timeless.png)](https://gemnasium.com/alexindigo/timeless)
 
 Javascript (Node + Browser) library that helps to deal with time in timezone- and/or date- agnostic way
 
@@ -75,3 +75,7 @@ Ender:
 ``` javascript
 $.time.padLeft(10); // -> '10'
 ```
+
+## License
+
+Timeless is licensed under the MIT license.
